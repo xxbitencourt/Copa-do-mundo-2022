@@ -1,0 +1,200 @@
+.topo{
+	background-color: black;
+	width: 20%;
+	height: 20px;
+	margin-left: 2vh;
+	max-width: 600px;
+}
+.topo1{
+	background-color: yellow;
+	width: 8%;
+	height: 20px;
+	margin-right: 80px;
+}
+.topo2{
+	background-color: yellow;
+	width: 8%;
+	height: 21px;
+	margin-left:43px;
+	margin-top: -8%;
+	max-width: 600px;
+}
+.topo3{
+	background-color: red;
+	width: 8%;
+	height: 21px;
+	margin-left: 480%;
+	margin-top: -8%;
+}
+.topo4{
+	background-color: red;
+	width: 8%;
+	height: 21px;
+	margin-left: 468%;
+	margin-top: -8%;
+}
+.topo5{
+	background-color: red;
+	width: 8%;
+	height: 21px;
+	margin-left: 455%;
+	margin-top: -8%;
+}
+
+.propaganda{
+    background-color:black;
+    width: 100%;
+	margin: 8vh auto;
+    width: 1300px;
+    height: 168px;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	font-family: serif;
+}
+
+ .lateralesqu{
+background-color: yellow;
+width: 200px;
+height: 1000px;
+margin-left: 2vh;
+flex-direction:row;
+}
+
+ .espanha{
+width:500px;
+height: 300px;
+margin-left: 41vh;
+flex-direction:row;
+text-align: right;
+max-width: 700px;
+}
+
+ .alemanha{
+width: 300px;
+height: 200px;
+margin-left: 7vh;
+margin-top:25%;
+flex-direction: row;
+text-align: left;
+max-width: 700px;
+}
+
+ .japao{
+width: 300px;
+height: 200px;
+margin-top: 110%;
+flex-direction:row;
+text-align:left;
+max-width: 700px;
+}
+
+.costarica{
+width: 300px;
+height: 200px;
+margin-right:70vh;
+margin-top: 10%;
+flex-direction: row;
+text-align: left;
+max-width: 700px;
+}
+
+.espanha img{
+width: 500px;
+height: 300px;
+text-align: left;
+display: flex;
+max-width: 700px;
+}
+
+.alemanha img{
+width: 300px;
+height: 200px;
+display: flex;
+max-width: 700px;
+}
+
+.propaganda img{
+width: 1300px;
+height: 180px;
+text-align: right;
+}
+
+.japao img{
+width: 300px;
+height: 200px;
+margin-top: -190px;
+text-align: right;
+display: flex;
+max-width: 700px;
+}
+
+.costarica img{
+width: 300px;
+height: 200px;
+text-align: right;
+display: flex;
+max-width: 700px;
+}
+
+.lateralesqu img{
+width: 220px;
+height: 1000px;
+}
+
+.texto{
+	width: 30%
+    margin-top: -107vh;
+    margin-left: 0px;
+    text-align: left;
+    float: left;
+	display: flex;
+	flex-direction:row;
+    max-width: 700px;
+}
+.texto1{
+	width: 110%;
+	margin-left:-550px;
+	margin-top: -300px;
+	text-align: left;
+	flex-direction: row;
+	max-width: 700px;
+}
+.texto2{
+	width: 100%;
+	margin-left: 500px;
+	margin-top: -200px;
+	text-align: left;
+	max-width: 700px;
+}
+.texto3{
+	width: 100%;
+	margin-left: 500px;
+	margin-top: -200px;
+	text-align: left;
+	max-width: 700px;
+}
+.texto4{
+	width: 100%;
+	margin-left: 500px;
+	margin-top: -200px;
+	text-align: left;
+	max-width: 700px;
+}
+@media(max-width: 700px){
+.topo, .topo1, .topo2, .topo3, .topo4, .topo5, .propaganda,.espanha, .alemanha, .japao, .costarica
+{
+	width: 100%;
+}
+ .lateralesqu{
+ 	width:0%; 
+ 	height:0%;
+ } 
+}
+body{
+	background-color: #f8edd1;
+}
